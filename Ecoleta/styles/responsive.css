@@ -1,4 +1,9 @@
 @media(max-width: 1200px){
+    main{
+        margin-bottom: 30px;
+    }
+
+
     #page-home{
         background-position-x:80vw ;
     }
@@ -18,6 +23,18 @@
 
     #page-home main{
         align-items: center;
+    }
+
+    #page-search-result .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-result .cards img{
+        height: 200px;
+    }
+
+    #page-search-result .cards {
+        text-align: center;
     }
 
 }

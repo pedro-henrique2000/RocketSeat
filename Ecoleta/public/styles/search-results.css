@@ -1,3 +1,7 @@
+body{
+    background-color: white;
+}
+
 #page-search-result{
     width: 90%;
     max-width: 1100px;
@@ -90,12 +94,13 @@ main .card p{
 
 body::after {
     content: "";
-    background: white;
-    position: fixed;
-    top: 280px;
+    background: #f0f0f5;
+    position: absolute;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
 }
 
